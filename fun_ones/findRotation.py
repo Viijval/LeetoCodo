@@ -33,3 +33,4 @@ The inner loop which swaps 4 are fixed and dependent on i and j.   Because of th
 You never need to visit those other positions as seeds, they'd just re-do the same swap and undo it.
 n//2 for rows : you only need the top half. The bottom half is already covered as the "other side" of each cycle.
 (n+1)//2 for columns : for even n this is the same as n//2 (a square quarter). For odd n it rounds up by one to include the center column, because the center column's cycles don't have a mirror on the right hence they fold back on themselve
+'''
